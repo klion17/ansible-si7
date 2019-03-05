@@ -1,2 +1,2 @@
-[Debian9Developpement]
+[Debian9Prod]
 172.16.205.254 ansible_user=root
