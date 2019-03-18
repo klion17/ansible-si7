@@ -1,4 +1,4 @@
-#installation d'Apache sur le serveur de développement
+#installation d'Apache sur le serveur de production
 - name: Installation d'Apache
   hosts: all
   tasks:
@@ -17,7 +17,7 @@
           state: started
           enabled: yes
 
-#installation de PHP sur le serveur de développement
+#installation de PHP sur le serveur de production
 - name: Installation de PHP
   hosts: all
   tasks:
